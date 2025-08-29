@@ -1,0 +1,2 @@
+# CSCI-6330-MPI-CUDA-
+MPI and CUDA uses
