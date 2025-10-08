@@ -1,12 +1,8 @@
-CC = gcc
-CFLAGS = -Wall -O2 -lm
-TARGET = l1
+testpthread:	testpthread.c
+	cc -o2 -o testpthread testpthread.c -lpthread
 
-all: $(TARGET)
-
-$(TARGET): l1.c
-	$(CC) -o $(TARGET) l1.c $(CFLAGS)
-
+hello_arg3:    hello_arg3.c
+        cc -o2 -o hello_arg3 hello_arg3.c -lpthread
 clean:
-	rm -f $(TARGET) *.o
-
+	rm -f testpthread rm -f  *.o
+	
